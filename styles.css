@@ -23,9 +23,13 @@ h2{font-family:Georgia,serif;color:var(--green);font-size:29px;line-height:1.15;
 .story-photo,.story-gallery figure{margin:14px 0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow)}
 .story-photo img,.story-gallery img{display:block;width:100%;height:auto}.story-photo figcaption,.story-gallery figcaption{padding:9px 12px;color:var(--muted);font-size:12px}
 .story-gallery{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0}.story-gallery figure{margin:0}.story-gallery img{height:180px;object-fit:cover}
+@media(min-width:650px){
+  .menu{grid-template-columns:1fr 1fr}
+  .hero{min-height:330px}
+}
 
-
-
+@media(max-width:460px){
   .story-gallery img{height:145px}
   .photo-hero{min-height:290px}
-  
+}
+
