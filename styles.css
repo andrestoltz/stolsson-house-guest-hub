@@ -24,17 +24,8 @@ h2{font-family:Georgia,serif;color:var(--green);font-size:29px;line-height:1.15;
 .story-photo img,.story-gallery img{display:block;width:100%;height:auto}.story-photo figcaption,.story-gallery figcaption{padding:9px 12px;color:var(--muted);font-size:12px}
 .story-gallery{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0}.story-gallery figure{margin:0}.story-gallery img{height:180px;object-fit:cover}
 
-/* Permanent crop rules for source photos that contain black canvas/borders. */
-.wedding-photo{height:auto}
-.wedding-photo img{height:270px;object-fit:cover;object-position:center bottom;transform:scale(1.85);transform-origin:center bottom}
-.view-photo img{height:230px!important;object-fit:cover!important;object-position:center bottom;transform:scale(1.55);transform-origin:center bottom}
-.story-gallery figure:nth-child(4) img,.story-gallery figure:nth-child(5) img{transform:scale(1.55);transform-origin:center center}
 
-@media(min-width:650px){.menu{grid-template-columns:1fr 1fr}.hero{min-height:330px}}
-@media(max-width:460px){
+
   .story-gallery img{height:145px}
   .photo-hero{min-height:290px}
-  .wedding-photo img{height:230px;object-position:center bottom;transform:scale(1.85);transform-origin:center bottom}
-  .view-photo img{height:190px!important;object-position:center bottom;transform:scale(1.55);transform-origin:center bottom}
-  .story-gallery figure:nth-child(4) img,.story-gallery figure:nth-child(5) img{transform:scale(1.6);transform-origin:center center}
-}
+  
